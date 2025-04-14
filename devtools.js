@@ -138,7 +138,7 @@
       <label><input type="checkbox" id="toggleFluid" disabled> Container Fluid</label>
       <label><input type="checkbox" id="toggleOutlines"> Outlines</label>
       <button id="clearStorage">Clear Storage</button>
-      <button id="a11yCheck">Accessibility Helpers</button>
+      <button id="a11yCheck">Accessibility Helpers (console)</button>
     `;
     document.body.appendChild(toolbar);
   
