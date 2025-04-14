@@ -1,0 +1,16 @@
+{
+  "name": "devtools-bookmarklet",
+  "version": "1.0.0",
+  "description": "",
+  "main": "devtools.js",
+  "scripts": {
+    "dev": "gulp"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^5.0.0",
+    "gulp-terser": "^2.1.0"
+  }
+}

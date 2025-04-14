@@ -86,7 +86,7 @@
         background-repeat: no-repeat;
         background-position: center;
         padding: 2px;
-        background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="20" viewBox="0 0 32 32" xml:space="preserve"><path style="fill:%2523FFF" d="M11.941,28.877l-11.941-11.942l5.695-5.696l6.246,6.246l14.364-14.364L32,8.818"/></svg>');
+        background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="20" viewBox="0 0 32 32" xml:space="preserve"><path style="fill:%23FFF" d="M11.941,28.877l-11.941-11.942l5.695-5.696l6.246,6.246l14.364-14.364L32,8.818"/></svg>');
       }
       .dev-toolbar label:has([disabled]) {
         opacity: 0.55;
@@ -125,6 +125,9 @@
         right: 0;
         border-right: 1px solid rgba(0,138,12,0.1);
       }
+      .dev-column-outline *{outline:1px solid red;}
+      .dev-column-outline .dev-toolbar *,
+      .dev-column-outline .dev-grid *{outline:none;}
     `;
     document.head.appendChild(style);
   
