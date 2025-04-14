@@ -23,3 +23,13 @@ A developer bookmarklet for quickly toggling grids, outlines, accessibility chec
    ```bash
    npm install
    npm run dev
+
+## 🔗 How to Use the Bookmarklet
+
+The easiest way to install and use the DevTools bookmarklet:
+
+1. Visit the [DevTools Bookmarklet Launcher Page](https://digitaldiff.github.io/devtools-bookmarklet/).
+2. Drag the 🛠 **DevTools Bookmarklet** link to your bookmarks bar.
+3. Click the bookmarklet on any website to activate the developer toolbar.
+
+That's it—no coding or manual setup required!
